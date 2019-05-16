@@ -20,6 +20,8 @@ public class MovieCatalogServiceApplication {
 		return new RestTemplate();
 	}
 	
+	//Adding Bean to run WebClientBuilder
+	
 	@Bean
 	public WebClient.Builder getWebClientBuilder()
 	{
