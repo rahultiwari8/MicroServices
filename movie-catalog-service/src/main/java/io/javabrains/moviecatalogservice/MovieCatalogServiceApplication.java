@@ -20,7 +20,7 @@ public class MovieCatalogServiceApplication {
 		return new RestTemplate();
 	}
 	
-	//Adding Bean to run WebClientBuilder added gitscm plugin to test build
+	//Adding Bean to run WebClientBuilder added gitscm plugin to test build 
 	
 	@Bean
 	public WebClient.Builder getWebClientBuilder()
